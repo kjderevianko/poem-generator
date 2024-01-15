@@ -8,37 +8,47 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div></div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/kjderevianko" target="_blank">
-        Katya Derevianko
-      </a>
-      and is
-      <a href="https://github.com/kjderevianko/poem-generator" target="_blank">
-        opnen-sourced on GitHub
-      </a>
-      and is
-      <a href="https://ai-poem-generator-by-k.netlify.app/" target="_blank">
-        hosted on Netlify
-      </a>
-    </footer>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="intro"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          La rose est belle
+          <br />
+          J'adore
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/kjderevianko" target="_blank">
+          Katya Derevianko
+        </a>
+        and is
+        <a
+          href="https://github.com/kjderevianko/poem-generator"
+          target="_blank"
+        >
+          opnen-sourced on GitHub
+        </a>
+        and is
+        <a href="https://ai-poem-generator-by-k.netlify.app/" target="_blank">
+          hosted on Netlify
+        </a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
