@@ -51,6 +51,12 @@ form {
   line-height: 20px;
   color: #272044;
 }
+input:focus,
+textarea:focus {
+  border-color: transparent;
+  box-shadow: 0 0 10px rgba(237, 20, 20, 0.5);
+  outline: transparent;
+}
 .submit-button {
   margin-left: 10px;
   background: #f67280;
