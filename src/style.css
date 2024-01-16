@@ -1,9 +1,15 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url(../images/romeo.jpeg);
+  background-size: cover;
 }
 a {
-  color: #885df1;
+  color: #f95959;
 }
 .container {
   margin: 120px auto;
@@ -15,9 +21,9 @@ header {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 1.5;
-  color: #272044;
+  color: #f95959;
 }
 
 .form-container {
@@ -47,7 +53,7 @@ form {
 }
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: #f67280;
   color: white;
   border: none;
   width: 150px;
@@ -60,7 +66,7 @@ form {
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #f67280;
   box-shadow: 0 20px 60px rgba(65, 50, 100, 0.03);
 }
 .hidden {
@@ -68,8 +74,9 @@ form {
 }
 footer {
   text-align: center;
-  font-size: 13px;
-  margin-top: 30px;
+  font-size: 16px;
+  margin-top: 120px;
+  color: #233142;
 }
 .blink {
   animation: blink-animation 1s steps(5, start) infinite;
