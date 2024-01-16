@@ -20,13 +20,21 @@ h1 {
   color: #272044;
 }
 
-form {
-  padding: 30px;
+.form-container {
   background-color: white;
   box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
-  display: flex;
+  padding: 15px 20px;
   margin-bottom: 30px;
+}
+form {
+  display: flex;
+}
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
 }
 .intro {
   padding: 16px;
@@ -55,8 +63,24 @@ form {
   border-left: 3px solid #885df1;
   box-shadow: 0 20px 60px rgba(65, 50, 100, 0.03);
 }
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
